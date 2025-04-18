@@ -1,3 +1,10 @@
+# Conventional Commits
+
+## Introduction
+
+La spécification Conventional Commits est une convention légère appliquée aux messages de commit.
+Elle fournit un ensemble de règles simples pour créer un historique de commit clair et explicite, ce qui facilite l’utilisation d’outils automatisés basés sur cet historique.
+
 ## Types de Commit
 
 | **Type**    | **Description**                                                                 |
@@ -81,3 +88,51 @@ Un message de commit complet avec une description détaillée pourrait ressemble
 ### 5. Conclusion
 
 Respecter ces conventions garantit une meilleure lisibilité de l'historique des commits, ce qui facilite la gestion des versions et la collaboration au sein du projet.
+
+# Conventional Branch
+
+## Introduction
+
+La convention de branche standardisée ("Conventional Branch") fait référence à une nomenclature structurée et cohérente des branches Git, visant à rendre leur nom plus lisible et explicite. Nous suggérons des préfixes de branches que vous pouvez utiliser, mais vous êtes libres de définir vos propres conventions.
+Une convention cohérente facilite l’identification rapide du type de travail effectué sur chaque branche.
+
+
+## Points clés
+
+- Branches orientées objectif : Chaque nom de branche indique clairement son but, ce qui permet à tous les développeurs de comprendre facilement à quoi elle sert.
+- Intégration CI/CD : Grâce à des noms de branches cohérents, les systèmes automatisés (comme les pipelines d’intégration/déploiement continu) peuvent déclencher des actions spécifiques selon le type de branche (ex : déploiement automatique depuis une branche release/).
+- Collaboration en équipe : En rendant le but des branches explicite, cela facilite la collaboration, réduit les malentendus et permet de basculer facilement d'une tâche à une autre.
+
+## Spécification
+
+### Préfixes recommandés pour les branches
+
+Les branches doivent être structurées comme suit :
+	<type>/<description>
+
+
+| **Type**    | **Utilisation**                                                                 |
+|-------------|---------------------------------------------------------------------------------|
+| `main`      | Branche principale de développement(main, master, ou devlop)                    |
+| `feature/`  | Pour l'ajout de nouvelles fonctionnalités(ex: feature/add-login-page)           |
+| `bugfix/`   | Pour la correction de bugs(ex: bugfix/fix-header-bug)                           |
+| `hotfix/`   | Pour des correctifs urgents(ex: hotfix/security-patch)                          |
+| `release/`  | Pour préparer une version(ex: release/v1.2.0)                                   |
+| `chore`     | Pour des tâches non liées au code métier, comme les mises à jour de dépendances ou de documentation(ex: chore/update-dependencies)|
+
+
+### Règles de base
+
+- Minuscules et tirets uniquement: Utilisez uniquement des lettres minuscules (a-z), des chiffres (0-9) et des tirets (-) pour séparer les mots
+Évitez les caractères spéciaux, les underscores (_) ou les espaces.
+- Pas de tirets consécutifs ou finaux: Pas de double tiret (feature/new--login) ni de tiret à  la fin (feature/new-login-).
+- Clair et concis: Le nom de la branche doit être descriptif mais court, indiquant clairement l’objectif.
+- Inclure un numéro de ticket (si possible): Pour un meilleur suivi, ajoutew le numéro du ticket (ex: feature/issue-123-new-login).
+
+### Conclusion
+
+- Communication claire: Le nom de la branche permet à lui seul de comprendre l’objectif du changement.
+- Compatible avec l’automatisation : Permet d'intégrer facilement des processus automatisés (différents workflows selon le type de branche).
+- Évolutif : Convient parfaitement aux équipes de grande taille avec plusieurs développeurs travaillant sur des tâches variées.
+
+En résumé, la convention conventional branch vise à améliorer l’organisation, la communication et l’automatisation dans les workflows Git.

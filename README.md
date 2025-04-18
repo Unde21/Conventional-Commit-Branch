@@ -36,19 +36,31 @@ Le message de commit doit suivre la structure suivante:
 
 #### 2. Correction de bug
 
-	feat(expand): add support for environment variable expansion
+	fix: correct parsing issue with double quotes
 
 #### 3. Refactorisation du code
 
-	feat(expand): add support for environment variable expansion
+	refactor: improve argument parsing logic
 
 #### 4. Changement de style
 
-	feat(expand): add support for environment variable expansion
+	style: norm init.c
 
 #### 5. Mise à jour de la documentation
 
-	feat(expand): add support for environment variable expansion
+	docs: update README with usage instructions
+
+#### 6. Ajout ou modification de test
+
+	test: add unit tests for libft
+
+#### 7. Tâches diverses
+
+	chore: add Valgrind suppression file
+
+#### 8. Modifications liées à l'intégration continue
+
+	ci: add Github Actions workflow for C build
 
 ## Bonnes Pratiques
 ### 1. Soyez précis mais concis

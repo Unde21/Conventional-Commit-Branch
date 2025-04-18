@@ -21,7 +21,7 @@ Le message de commit doit suivre la structure suivante:
 	- <scope>: Optionnel. Le scope (portée) du commit, décrivant la partie du code concernee (par exemple parsing, exec, etc..).
 	- <description>: Une brève description du changement. Elle doit être concise, au présent et sans ponctuation finale.
 
-### Exemples
+### Exemples:
 
 #### 1. Ajout d'une fonctionnalité
 

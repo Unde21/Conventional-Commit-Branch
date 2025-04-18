@@ -113,12 +113,12 @@ Les branches doivent être structurées comme suit :
 
 | **Type**    | **Utilisation**                                                                 |
 |-------------|---------------------------------------------------------------------------------|
-| `main`      | Branche principale de développement(main, master, ou devlop)                    |
-| `feature/`  | Pour l'ajout de nouvelles fonctionnalités(ex: feature/add-login-page)           |
-| `bugfix/`   | Pour la correction de bugs(ex: bugfix/fix-header-bug)                           |
-| `hotfix/`   | Pour des correctifs urgents(ex: hotfix/security-patch)                          |
-| `release/`  | Pour préparer une version(ex: release/v1.2.0)                                   |
-| `chore`     | Pour des tâches non liées au code métier, comme les mises à jour de dépendances ou de documentation(ex: chore/update-dependencies)|
+| `main`      | Branche principale de développement (main, master, ou devlop)                    |
+| `feature/`  | Pour l'ajout de nouvelles fonctionnalités (ex: feature/add-login-page)           |
+| `bugfix/`   | Pour la correction de bugs (ex: bugfix/fix-header-bug)                           |
+| `hotfix/`   | Pour des correctifs urgents (ex: hotfix/security-patch)                          |
+| `release/`  | Pour préparer une version (ex: release/v1.2.0)                                   |
+| `chore`     | Pour des tâches non liées au code métier, comme les mises à jour de dépendances ou de documentation (ex: chore/update-dependencies)|
 
 
 ### Règles de base

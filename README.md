@@ -23,7 +23,8 @@ Elle fournit un ensemble de règles simples pour créer un historique de commit 
 ## Structure du Message de Commit
 
 Le message de commit doit suivre la structure suivante:
-       <type>(<scope>): <description>
+
+    <type>(<scope>): <description>
 	- <type>: Le type du commit, choisi parmi ceux listés ci-dessus (ex. feat, fix, refactor, etc..).
 	- <scope>: Optionnel. Le scope (portée) du commit, décrivant la partie du code concernee (par exemple parsing, exec, etc..).
 	- <description>: Une brève description du changement. Elle doit être concise, au présent et sans ponctuation finale.
